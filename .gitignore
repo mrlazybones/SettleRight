@@ -23,3 +23,7 @@ Desktop.ini
 
 # Logs
 *.log
+
+# Local learning notes. README.md is the only Markdown file in Git.
+*.md
+!README.md
