@@ -6,7 +6,7 @@ This repository is a learning project: a modular Spring Boot monolith with Postg
 
 ## Current status
 
-Milestone 0 (learning environment) is in progress. The application has not been generated yet.
+Milestone 0 is complete. A minimal Spring Boot 4.1.1 application starts on port 8080. No product features yet.
 
 ## Local requirements
 
