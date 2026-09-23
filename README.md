@@ -6,7 +6,7 @@ This repository is a learning project: a modular Spring Boot monolith with Postg
 
 ## Current status
 
-Milestone 0 is complete. Milestone 1 (product definition) is in progress. A minimal Spring Boot 4.1.1 application starts on port 8080. No product features yet.
+Milestone 0 is complete. A minimal Spring Boot 4.1.1 application starts on port 8080. Sample reconciliation CSVs are in `src/test/resources/samples/`. No product features yet.
 
 ## Local requirements
 
