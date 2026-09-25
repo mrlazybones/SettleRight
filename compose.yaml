@@ -1,0 +1,20 @@
+services:
+  db:
+    image: postgres:18
+    environment:
+      POSTGRES_USER: settleright
+      POSTGRES_PASSWORD: settleright
+      POSTGRES_DB: settleright
+    ports:
+      - "5432:5432"
+    volumes:
+      - settleright-pgdata:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U settleright -d settleright"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+
+volumes:
+  settleright-pgdata:
